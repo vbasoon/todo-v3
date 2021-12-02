@@ -1,0 +1,30 @@
+.todo__wrapper {
+  .todo-dashboard {
+    padding: 38px 0px 20px 18px;
+    padding-top: 38px;
+    &__header {
+      h2 {
+        font-size: 20px;
+        margin-bottom: 32px;
+      }
+    }
+  }
+
+  &-inner {
+    &::-webkit-scrollbar {
+      width: 2px;
+      background: var(--color-acsent);
+
+      //border: 2px solid red;
+    }
+    &::-webkit-scrollbar-track {
+      background: var(--color-grey);
+    }
+    &::-webkit-scrollbar-thumb {
+      width: 2px;
+      border-radius: 40px;
+      background: var(--color-acsent);
+      height: 202px;
+    }
+  }
+}
